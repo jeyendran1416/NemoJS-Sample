@@ -1,0 +1,24 @@
+{
+  "extends": ["eslint:recommended", "standard", "plugin:flowtype/recommended"],
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "browser": false,
+    "node": true,
+    "amd": false,
+    "mocha": false,
+    "jasmine": false
+  },
+  "ecmaFeatures": {},
+  "globals": {},
+  "rules": {
+    "comma-dangle": [2, "never"],
+    "vars-on-top": 0,
+    "no-mixed-spaces-and-tabs": "error",
+    "key-spacing": ["error", { "mode": "strict" }],
+    "keyword-spacing": "error",
+    "no-undef":"off"
+  }
+}
